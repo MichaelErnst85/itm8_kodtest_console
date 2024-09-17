@@ -15,5 +15,7 @@ namespace itm8_kodtest_console.Data
         public string Country { get; set; }
         [JsonProperty("temperature")]
         public double Temperature { get; set; }
+        [JsonProperty("validTime")] 
+        public DateTime? ValidTime { get; set; }
     }
 }
